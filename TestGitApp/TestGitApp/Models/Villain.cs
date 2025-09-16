@@ -1,22 +1,20 @@
 ﻿namespace TestGitApp.Models
 {
-    public class Heroe
+    public class Villain
     {
 
-       
+
         public string? FullName { get; set; }
-      
 
 
-        public Heroe( string fullName)
+
+        public Villain(string fullName)
         {
 
-           
+
             FullName = fullName;
-           
+
         }
-        public Heroe() { }
+        public Villain() { }
     }
-
 }
-
