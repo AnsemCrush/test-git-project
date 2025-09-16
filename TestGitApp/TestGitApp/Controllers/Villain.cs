@@ -9,7 +9,7 @@ namespace TestGitApp.Controllers
         [HttpGet]
         public String GetAllVillains(String villainType)
         {
-
+            Console.WriteLine(" i love vilains");
             return villainType;
         }
     }
